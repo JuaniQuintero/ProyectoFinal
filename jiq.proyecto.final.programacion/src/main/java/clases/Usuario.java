@@ -1,5 +1,5 @@
 package clases;
 
-public class Usuario {
+public class Usuario extends ElementoConNombre{
 
 }

@@ -1,5 +1,5 @@
 package clases;
 
-public class Especial {
-
+public class Especial extends ElementoConDuracionEIdioma{
+	private boolean esCanon;
 }

@@ -1,5 +1,8 @@
 package clases;
 
-public class Serie {
+import java.util.ArrayList;
 
+public class Serie extends ElementoSeleccionable{
+	private ArrayList<Temporada> temporadas;
+	private short añoFinalizacion;
 }

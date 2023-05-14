@@ -1,5 +1,8 @@
 package clases;
 
-public abstract class ElementoConDuracionEIdioma {
+import enums.Idiomas;
 
+public abstract class ElementoConDuracionEIdioma extends ElementoConDescripcion{
+	private byte duracion;
+	private Idiomas idioma;
 }

@@ -1,5 +1,7 @@
 package clases;
 
-public class Seccion {
+import java.util.ArrayList;
 
+public class Seccion extends ElementoConNombre{
+	private ArrayList<ElementoSeleccionable> seriesYPelis;
 }

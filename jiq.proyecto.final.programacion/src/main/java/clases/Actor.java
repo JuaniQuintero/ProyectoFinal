@@ -1,5 +1,6 @@
 package clases;
 
-public class Actor {
-
+public class Actor extends ElementoConNombre{
+	private String apellido;
+	private String rol;
 }

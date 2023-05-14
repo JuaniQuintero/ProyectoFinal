@@ -1,5 +1,9 @@
 package clases;
 
-public class Cuenta {
+import java.util.ArrayList;
 
+public class Cuenta {
+	private ArrayList<Usuario> usuarios;
+	private String correo;
+	private String contraseña;
 }

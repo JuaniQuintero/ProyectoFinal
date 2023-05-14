@@ -1,5 +1,5 @@
 package clases;
 
-public class Capitulo {
-
+public class Capitulo extends ElementoConDuracionEIdioma{
+	private String cancionIntro;
 }

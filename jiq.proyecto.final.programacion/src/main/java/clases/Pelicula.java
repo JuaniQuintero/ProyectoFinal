@@ -1,5 +1,8 @@
 package clases;
 
-public class Pelicula {
+import enums.Idiomas;
 
+public class Pelicula extends ElementoSeleccionable{
+	private byte duracion;
+	private Idiomas idioma;
 }
